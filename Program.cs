@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace HackerRank
 {
     class Program
     {
@@ -19,33 +19,33 @@ namespace ConsoleApp1
         static void InicializeMiniMaxSum()
         {
             long[] numeros = { 5, 4, 3, 2, 1 };
-            MiniMaxSum(numeros);
-
+            MiniMaxSum.GetMinMaxSum(numeros);
+            
             numeros = new long[] { 7, 69, 2, 221, 8974 };
-            MiniMaxSum(numeros);
+            MiniMaxSum.GetMinMaxSum(numeros);
 
             numeros = new long[] { 5, 5, 5, 5, 5 };
-            MiniMaxSum(numeros);
+            MiniMaxSum.GetMinMaxSum(numeros);
         }
 
-        static void MiniMaxSum(long[] arr)
-        {
-            Array.Sort(arr);
+        //static void MiniMaxSum(long[] arr)
+        //{
+        //    Array.Sort(arr);
 
-            long Min = arr[0];
-            long Max = arr[arr.Length -1];
+        //    long Min = arr[0];
+        //    long Max = arr[arr.Length -1];
 
-            if (!arr.Distinct().Skip(1).Any()) {
-                arr = arr.Take(arr.Length - 1).ToArray();
-                Max += 1;
-                Min = 0;
-            }
+        //    if (!arr.Distinct().Skip(1).Any()) {
+        //        arr = arr.Take(arr.Length - 1).ToArray();
+        //        Max += 1;
+        //        Min = 0;
+        //    }
 
-            long sumMin = (from x in arr where x < Max select x).Sum();
-            long sumMax = (from x in arr where x > Min select x).Sum();
+        //    long sumMin = (from x in arr where x < Max select x).Sum();
+        //    long sumMax = (from x in arr where x > Min select x).Sum();
             
-            Console.Write(String.Format("{0} {1}", sumMin.ToString(), sumMax.ToString()));
-        }
+        //    Console.Write(String.Format("{0} {1}", sumMin.ToString(), sumMax.ToString()));
+        //}
 
 
         static void InicializeBirthdayCakeCandles()
