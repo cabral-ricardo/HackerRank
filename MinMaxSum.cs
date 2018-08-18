@@ -8,6 +8,13 @@ namespace HackerRank
 {
     public static class MinMaxSum
     {
+        /// <summary>
+        /// This function receive an array 
+        /// Return Sum Min (except the largest array number)
+        /// Return Sum Max (except the less array number)
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <returns></returns>
         public static string GetMinMaxSum(long[] arr)
         {
             Array.Sort(arr);

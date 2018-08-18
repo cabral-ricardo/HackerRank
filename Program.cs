@@ -11,39 +11,9 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            InicializeBirthdayCakeCandles();
             InicializeTimeConversion();
         }
-
-        static void InicializeBirthdayCakeCandles()
-        {
-            long[] numeros = { 1, 3, 2, 3};
-            BirthdayCakeCandles(numeros);
-        }
-
-        static void BirthdayCakeCandles(long[] ar)
-        {
-            ar = (from x in ar orderby x descending select x).ToArray();
-
-            long max = ar[0];
-            long count = 0;
-
-            foreach (var item in ar)
-            {
-                if (max != item)
-                {
-                    break;
-                }
-
-                count++;
-            }
-
-            Console.WriteLine(count.ToString());
-
-
-        }
-
-
+        
         static void InicializeTimeConversion()
         {
             TimeConversion("07:05:45PM");

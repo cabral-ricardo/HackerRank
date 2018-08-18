@@ -7,8 +7,8 @@ namespace HackerRankTest
     [TestClass]
     public class MinMaxSumTest
     {
-        // Sum Min - Menos o maior numero do array
-        // Sum Max - Menos o menor numero do array
+        // Sum Min - except the largest array number
+        // Sum Max - except the less array number
 
         [TestMethod]
         public void Minimo10Maximo14()
