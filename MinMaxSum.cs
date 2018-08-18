@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HackerRank
 {
-    public static class MiniMaxSum
+    public static class MinMaxSum
     {
         public static string GetMinMaxSum(long[] arr)
         {
