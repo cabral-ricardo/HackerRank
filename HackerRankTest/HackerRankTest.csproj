@@ -51,6 +51,7 @@
     <Compile Include="BirthdayCakeCandlesTest.cs" />
     <Compile Include="MinMaxSumTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimeConversionTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
