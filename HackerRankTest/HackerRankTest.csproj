@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BirthdayCakeCandlesTest.cs" />
+    <Compile Include="CompareTripletsTest.cs" />
+    <Compile Include="FoldersTest.cs" />
     <Compile Include="MinMaxSumTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TimeConversionTest.cs" />

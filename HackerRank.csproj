@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BirthdayCakeCandles.cs" />
+    <Compile Include="CompareTriplets.cs" />
+    <Compile Include="Folders.cs" />
     <Compile Include="MinMaxSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

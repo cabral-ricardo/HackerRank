@@ -8,6 +8,11 @@ namespace HackerRank
 {
     public static class TimeConversion
     {
+        /// <summary>
+        /// Convert string of parameter to default value AM or PM
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
         public static string GetTimeConversion(string s)
         {
             DateTime dt = Convert.ToDateTime(s);
