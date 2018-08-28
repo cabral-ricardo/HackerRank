@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BirthdayCakeCandlesTest.cs" />
+    <Compile Include="CircularArrayRotationTest.cs" />
     <Compile Include="CompareTripletsTest.cs" />
     <Compile Include="FoldersTest.cs" />
     <Compile Include="MinMaxSumTest.cs" />
